@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function GameBody() {
-    return (
-        <div>
-
-        </div>
-    )
+  return (
+    <div className="gameBody">
+      <div className="gameBodyCard"> ............</div>
+    </div>
+  );
 }
 
-export default GameBody
+export default GameBody;

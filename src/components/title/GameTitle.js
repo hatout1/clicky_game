@@ -1,16 +1,16 @@
 import React from "react";
 
-function GameTitle() {
-  return (
-    <div>
+const GameTitle = props => (
+  <div class="jumbotron mt-5 jumbotron-fluid text-light bg-dark">
+    <div class="container">
       <h1>Clicky Game</h1>
       <br />
       <h5 className="subtitle">
-        Click a picture to get started! After each click, the pictures will
-        shuffle. <br /> The goal is to select each picture only once
+        Click on an image to earn points, but don't click on any more than once!{" "}
+        <br /> The goal is to select each picture only once
       </h5>
     </div>
-  );
-}
+  </div>
+);
 
 export default GameTitle;
