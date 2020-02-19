@@ -1,8 +1,8 @@
 import React from "react";
 
 const GameTitle = props => (
-  <div class="jumbotron mt-5 jumbotron-fluid text-light bg-dark">
-    <div class="container">
+  <div className="jumbotron mt-5 jumbotron-fluid text-light bg-dark">
+    <div className="container">
       <h1>Clicky Game</h1>
       <br />
       <h5 className="subtitle">

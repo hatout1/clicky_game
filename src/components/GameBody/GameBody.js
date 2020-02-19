@@ -34,12 +34,21 @@ class GameBody extends Component {
             clickedPictures: [...this.state.clickedPictures, picture]
           });
           console.log(this.state.clickedPictures);
+          this.incrementScore();
         }
       });
     }
 
     this.setState({ pictures: shuffle(this.state.pictures) });
     console.log("change pictures places ");
+
+    console.log(this.state.score);
+  };
+
+  incrementScore = () => {
+    this.setState({ score: this.state.score + 1 });
+
+    console.log("Score: " + this.state.score);
   };
 
   render() {
