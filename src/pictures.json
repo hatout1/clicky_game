@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Audino",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Audino.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Patrat",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Patrat.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Lillipup",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Lillipup.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pansear",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Pansear.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Herdier",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Herdier.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cubchoo",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Cubchoo.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Shelmet",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Shelmet.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Haxorus",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-17/Pokemon_Go_Fraxure.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Axew",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Axew.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Galvantula",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-17/Pokemon_Go_Galvantula.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Joltik",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Joltik.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Karrablast",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Karrablast.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Archeops",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Archeops.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Archen",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Archen.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Woobat",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Woobat.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Swoobat",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Swoobat.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Tornadus",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Tornadus.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Scraggy",
+    "image": "https://d2skuhm0vrry40.cloudfront.net/2019/articles/2019-07-15-17-13/Pokemon_Go_Scraggy.jpg"
+  }
+]

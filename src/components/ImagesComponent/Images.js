@@ -7,7 +7,7 @@ const Images = props => (
         className="card-img-top"
         src={props.src}
         alt={props.alt}
-        onClick={props.onClickFunction}
+        onClick={props.onClickHandler}
         id={props.id}
       />
     </div>
