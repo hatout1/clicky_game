@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import Pictures from "../../pictures.json";
 import Images from "../ImagesComponent/Images";
 
+import shuffle from "shuffle-array";
+
 class GameBody extends Component {
   constructor(props) {
     super(props);
@@ -35,6 +37,9 @@ class GameBody extends Component {
         }
       });
     }
+
+    this.setState({ pictures: shuffle(this.state.pictures) });
+    console.log("change pictures places ");
   };
 
   render() {
