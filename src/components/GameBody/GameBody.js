@@ -27,6 +27,7 @@ class GameBody extends Component {
 
     if (clicked) {
       console.log(" this image has been clicked !!!");
+      this.gameEnd();
     } else {
       this.state.pictures.forEach(picture => {
         if (picture.id == id) {
@@ -49,6 +50,11 @@ class GameBody extends Component {
     this.setState({ score: this.state.score + 1 });
 
     console.log("Score: " + this.state.score);
+  };
+
+  gameEnd = () => {
+    this.setState({ score: 1, clickedPictures: [] });
+    console.log("GAME OVER");
   };
 
   render() {
