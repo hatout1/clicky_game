@@ -15,12 +15,16 @@ class App extends Component {
     };
   }
 
+  updateScore = newScore => {
+    this.setState({ score: newScore });
+  };
+
   render() {
     return (
       <div>
-        <Nav />
+        <Nav Score={this.state.score} TopScore={this.state.topScore} />
         <GameTitle />
-        <GameBody />
+        <GameBody updateScore={this.updateScore} />
       </div>
     );
   }

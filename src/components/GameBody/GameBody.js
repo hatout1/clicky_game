@@ -50,6 +50,8 @@ class GameBody extends Component {
     this.setState({ score: this.state.score + 1 });
 
     console.log("Score: " + this.state.score);
+
+    this.props.updateScore(this.state.score);
   };
 
   gameEnd = () => {
