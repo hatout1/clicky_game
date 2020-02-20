@@ -40,6 +40,8 @@ class GameBody extends Component {
       });
     }
 
+    this.props.updateTopScore(this.state.score);
+
     this.setState({ pictures: shuffle(this.state.pictures) });
     console.log("change pictures places ");
 

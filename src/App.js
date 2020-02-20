@@ -19,12 +19,21 @@ class App extends Component {
     this.setState({ score: newScore });
   };
 
+  updateTopScore = newTopScore => {
+    if (newTopScore > this.state.topScore) {
+      this.setState({ topScore: newTopScore });
+    }
+  };
+
   render() {
     return (
       <div>
         <Nav Score={this.state.score} TopScore={this.state.topScore} />
         <GameTitle />
-        <GameBody updateScore={this.updateScore} />
+        <GameBody
+          updateScore={this.updateScore}
+          updateTopScore={this.updateTopScore}
+        />
       </div>
     );
   }
