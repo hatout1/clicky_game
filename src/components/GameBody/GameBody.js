@@ -59,6 +59,8 @@ class GameBody extends Component {
   gameEnd = () => {
     this.setState({ score: 1, clickedPictures: [] });
     console.log("GAME OVER");
+
+    alert("this image has been clicked !!!");
   };
 
   render() {
